@@ -7,8 +7,7 @@ export var data = {
 		{ name: 'D5', type: 'dimension' },
 		{ name: 'File name', type: 'dimension' },
 		{ name: 'Language', type: 'dimension' },
-		{ name: 'Line count', type: 'measure' },
-		{ name: 'Language line count', type: 'measure' },
+		{ name: 'Line count', type: 'measure' }
 	],
 	records: [
 		['ci','ci/cloudbucket','ci/cloudbucket/CORS','ci/cloudbucket/CORS','ci/cloudbucket/CORS','ci/cloudbucket/CORS/cors.json','JSON','9'],
