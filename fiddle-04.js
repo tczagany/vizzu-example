@@ -29,5 +29,6 @@ chart.initializing
       y: { set: ['D1', 'D2'], labelLevel: 1 },
       color: 'D1'
     }
-  }
+  },
+  style: { plot: { yAxis: { label: { fontSize: 7 } } } }
 }));

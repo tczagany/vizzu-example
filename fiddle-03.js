@@ -37,7 +37,7 @@ chart.initializing
       x: 'Line count',
     }
   },
-  style: { plot: { yAxis: { label: { fontSize: 18 } } } }
+  style: { plot: { yAxis: { label: { fontSize: 12 } } } }
 }))
 .then(chart => chart.animate({
   config: {

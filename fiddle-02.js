@@ -20,6 +20,12 @@ chart.initializing
       color: 'Language',
       y: ['File name', 'Language']
     }
+  },
+  style: {
+    plot: {
+      xAxis: { label: { color: "#00000000" } },
+      yAxis: { label: { color: "#00000000" } }
+    }
   }
 }))
 .then(chart => chart.animate({
@@ -28,6 +34,8 @@ chart.initializing
       y: 'Language',
       x: ['File name','Line count'],
     }
-  },
-  style: { plot: { yAxis: { label: { fontSize: 18 } } } }
+  }
+}))
+.then(chart => chart.animate({
+  style: { plot: { yAxis: { label: { color: null, fontSize: 12 } } } }
 }));
